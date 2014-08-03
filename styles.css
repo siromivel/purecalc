@@ -12,25 +12,32 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 body {
 	font-size: 2em;
 }
+.container {
+	display: inline-block;
+}
 #display, .button, .bigbutton {
-	border-width: 1px;
+	border-width: 2px;
 	border-color: #000;
 	border-style: solid;
-}
-.button, .bigbutton {
+	background-color: #fff;
 	display: inline-block;
-	padding-left: 5px;
 	margin: 3px;
+	text-align: center;
+}
+.button:hover, .bigbutton:hover {
+	color: #fff;
+	background-color: #000;
 }
 .button {
-	width: 68px;
+	width: 73px;
 }
 .bigbutton {
-	width: 157.5px;
+	width: 162.5px;
 }
 #display {
-	width: 300px;
+	width: 305px;
 	height: 20px;
 	padding: 20px;
 	text-align: right;
+	border-radius: 0;
 }
